@@ -13,6 +13,10 @@
 		6F75ADB0232CEBFD00FFDDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F75ADAF232CEBFD00FFDDAA /* Assets.xcassets */; };
 		6F75ADB3232CEBFD00FFDDAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F75ADB1232CEBFD00FFDDAA /* LaunchScreen.storyboard */; };
 		6F75ADBE232CEBFD00FFDDAA /* romstatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F75ADBD232CEBFD00FFDDAA /* romstatusTests.swift */; };
+		6F942321232D38E5002A1580 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F942320232D38E5002A1580 /* RoomViewController.swift */; };
+		6F942323232D3919002A1580 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F942322232D3919002A1580 /* Room.swift */; };
+		6F942325232D3972002A1580 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F942324232D3972002A1580 /* SampleData.swift */; };
+		6F942327232D3F67002A1580 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F942326232D3F67002A1580 /* RoomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		6F75ADB9232CEBFD00FFDDAA /* romstatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = romstatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F75ADBD232CEBFD00FFDDAA /* romstatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romstatusTests.swift; sourceTree = "<group>"; };
 		6F75ADBF232CEBFD00FFDDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F942320232D38E5002A1580 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		6F942322232D3919002A1580 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		6F942324232D3972002A1580 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		6F942326232D3F67002A1580 /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				6F75ADAF232CEBFD00FFDDAA /* Assets.xcassets */,
 				6F75ADB1232CEBFD00FFDDAA /* LaunchScreen.storyboard */,
 				6F75ADB4232CEBFD00FFDDAA /* Info.plist */,
+				6F942320232D38E5002A1580 /* RoomViewController.swift */,
+				6F942322232D3919002A1580 /* Room.swift */,
+				6F942324232D3972002A1580 /* SampleData.swift */,
+				6F942326232D3F67002A1580 /* RoomCell.swift */,
 			);
 			path = romstatus;
 			sourceTree = "<group>";
@@ -197,8 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F942327232D3F67002A1580 /* RoomCell.swift in Sources */,
+				6F942323232D3919002A1580 /* Room.swift in Sources */,
 				6F75ADAB232CEBFC00FFDDAA /* ViewController.swift in Sources */,
 				6F75ADA9232CEBFC00FFDDAA /* AppDelegate.swift in Sources */,
+				6F942325232D3972002A1580 /* SampleData.swift in Sources */,
+				6F942321232D38E5002A1580 /* RoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
